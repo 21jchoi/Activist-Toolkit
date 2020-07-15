@@ -17,7 +17,7 @@ body,
 html {
   height: 100%;
   font-size: 20px; /* Change the font size*/
-  font-family: 'Montserrat Subrayada', sans-serif;/* Change the font */
+  font-family: 'Staatliches', cursive;/* Change the font */
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
   color: white; /* Change the font color*/
@@ -29,7 +29,7 @@ h1 {
   letter-spacing: 5px;
   font-size: 50px;
   /*TODO: Change the font-family property to your linked font*/
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Staatliches', cursive;
   color: #DECB23;
   text-align: center;
 }
@@ -64,9 +64,9 @@ ul.nav-bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #43d6b9ff;
+  background-color: #000000;
   border-style: solid;
-  border-color: #0D38D3;
+  border-color: #DECB23;
 }
 
 /* TODO (optional): Change the font size*/
@@ -74,7 +74,7 @@ ul.nav-bar {
 li.nav {
   /* Styling for the <li class="nav"> element */
   float: right;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 /* TODO (optional): Change the font color, decoration, and/or case */
@@ -82,7 +82,7 @@ li.nav {
 li.nav a {
   /* Styling for the <a> elements in <li class="nav"> */
   display: block;
-  color: #0D38D3;
+  color: #DECB23;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -94,8 +94,8 @@ li.nav a {
 
 li.nav a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
-  background-color: #0D38D3;
-  color: #43d6b9ff;
+  background-color: #DECB23;
+  color: #000000;
 }
 
 /************************************************/
@@ -165,6 +165,7 @@ li.nav a:hover {
   padding: 20px 45px;
   margin: 35px;
   text-align: center;
+  font-family: 'Lusitana', serif;
 }
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
