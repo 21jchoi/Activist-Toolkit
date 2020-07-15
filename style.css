@@ -39,7 +39,7 @@ h2 {
   letter-spacing: 3px;
   font-size: 25px;
   font-family: "Roboto Mono", sans-serif;
-  color: #43d6b9ff;
+  color: #DECB23;
   text-align: center;
   line-height: 1.3em;
 }
@@ -172,7 +172,9 @@ li.nav a:hover {
 /* TODO: Add the CSS selector for each image to the collective image rule set */
 
 .main-message,
-.image-one {
+.image-one,
+.image-two,
+.image-three{
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -195,8 +197,15 @@ li.nav a:hover {
 }
 
 /* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
+.image-two{
+  background-image: url("https://cdn.glitch.com/1d254c45-9458-43ee-bfb0-e6fc1f9c93d2%2Funiversity.jpg?v=1594775336597");
+}
 
 /* TODO: Add more background images by repeating the process above */
+.image-three{
+  background-image: url("https://cdn.glitch.com/1d254c45-9458-43ee-bfb0-e6fc1f9c93d2%2Fimfinetape.jpg?v=1594781805721")
+}
+
 
 /*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
 .attributions {
