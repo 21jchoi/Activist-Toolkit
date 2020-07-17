@@ -54,13 +54,16 @@
 
 .fab {
   padding: 20px;
+  padding-top:50px;
   font-size: 30px;
-  width: 30px;
+  width: 115px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
 }
-
+.fab:hover {
+  opacity: 0.7;
+}
 
 /* Right box under title; item in .flex-container */
 .action-list-container {
