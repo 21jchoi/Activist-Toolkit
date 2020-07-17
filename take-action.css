@@ -52,6 +52,16 @@
   width: 100%;
 }
 
+.fab {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
 /* Right box under title; item in .flex-container */
 .action-list-container {
   width: 75%;
